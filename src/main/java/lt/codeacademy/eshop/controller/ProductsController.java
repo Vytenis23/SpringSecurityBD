@@ -1,6 +1,7 @@
 package lt.codeacademy.eshop.controller;
 
 import lt.codeacademy.eshop.model.Product;
+import lt.codeacademy.eshop.service.MessageService;
 import lt.codeacademy.eshop.service.ProductService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.data.domain.Pageable;
@@ -20,25 +21,28 @@ import java.util.UUID;
 public class ProductsController {
 
     private final ProductService productService;
+    private final MessageService messageService;
 
-    public ProductsController(@Qualifier("productServiceImpl") ProductService productService) {
+    public ProductsController(@Qualifier("productServiceImpl") ProductService productService, MessageService messageService) {
         this.productService = productService;
+        this.messageService = messageService;
     }
 
     @GetMapping("/create")
-    public String openCreateProductForm(Model model) {
+    public String openCreateProductForm(Model model, String message) {
         model.addAttribute("product", new Product());
+        if (message != null) {
+            model.addAttribute("success", messageService.getMessage(message));
+        }
+
         return "product";
     }
 
     @PostMapping("/create")
-    public String createProduct(Product product, Model model) {
-        model.addAttribute("product", new Product());
-        model.addAttribute("success", "Product save successfully");
-
+    public String createProduct(Product product) {
         productService.addProduct(product);
 
-        return "product";
+        return "redirect:/products/create?message=create.product.success.message";
     }
 
     @GetMapping
@@ -70,18 +74,14 @@ public class ProductsController {
     @PostMapping("/update")
     public String updateProject(Product product, Model model) {
         productService.update(product);
-        model.addAttribute("products", productService.getProducts());
 
-        return "products";
+        return "redirect:/products";
     }
 
     @GetMapping("/delete")
     public String deleteProduct(@RequestParam UUID id, Model model) {
         productService.delete(id);
-
-        model.addAttribute("products", productService.getProducts());
-
-        return "products";
+        return "redirect:/products";
     }
 
 }
