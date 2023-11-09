@@ -18,14 +18,12 @@ services:
       -
   db:
     image: postgres:latest
-    container_name: process-automation-backend
     restart: always
-    hostname: process-automation-backend
     environment:
-      POSTGRES_USER: rolu
-      POSTGRES_PASSWORD: rolu
+      POSTGRES_USER: codeacademy
+      POSTGRES_PASSWORD: codeacademy-password
       POSTGRES_HOST_AUTH_METHOD: trust
-      POSTGRES_DB: process-automation-backend
+      POSTGRES_DB: codeacademy-db
     volumes:
       - .db-postgresql:/var/lib/postgresql/
     ports:
