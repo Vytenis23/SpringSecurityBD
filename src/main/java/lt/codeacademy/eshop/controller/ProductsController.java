@@ -11,7 +11,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;import java.util.UUID;
+import java.util.List;
+import java.util.UUID;
 
 @RestController
 @RequestMapping("/products")
@@ -27,5 +28,15 @@ public class ProductsController {
     @GetMapping
     public List<Product> getAll() {
         return productService.getProducts();
+    }
+
+    @PostMapping
+    public void save(@RequestBody Product product) {
+        productService.addProduct(product);
+    }
+
+    @DeleteMapping("/{id}")
+    public void delete(@PathVariable UUID id) {
+        productService.delete(id);
     }
 }
