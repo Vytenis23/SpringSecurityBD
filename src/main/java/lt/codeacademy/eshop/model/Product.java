@@ -1,9 +1,11 @@
 package lt.codeacademy.eshop.model;
 
+import jakarta.persistence.*;
 import lombok.Data;
+import org.hibernate.annotations.JdbcTypeCode;
 import org.hibernate.annotations.Type;
+import org.hibernate.type.SqlTypes;
 
-import javax.persistence.*;
 import java.math.BigDecimal;
 import java.util.UUID;
 
@@ -15,7 +17,8 @@ public class Product {
     @Id
     @GeneratedValue
     @Column(columnDefinition = "VARCHAR(36)", updatable = false)
-    @Type(type = "uuid-char")
+    @JdbcTypeCode(SqlTypes.VARCHAR)
+    //@Type(type = "uuid-char")
     private UUID id;
 
     private String name;
