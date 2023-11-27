@@ -30,6 +30,11 @@ public class ProductsController {
         return productService.getProducts();
     }
 
+    @GetMapping("/{id}")
+    public Product getProductDetail(@PathVariable(value = "id") UUID id) {
+        return productService.getProduct(id);
+    }
+
     @PostMapping
     public void save(@RequestBody Product product) {
         productService.addProduct(product);

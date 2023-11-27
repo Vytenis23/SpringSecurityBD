@@ -1,29 +1,28 @@
 version: '3.5'
 
 services:
-  database:
-    image: mysql:5.6
-    container_name: duomenu-baze
-    command: --default-authentication-plugin=mysql_native_password
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: verygoodpassword
-      MYSQL_DATABASE: eshopdb
-      MYSQL_USER: eshop_user
-      MYSQL_PASSWORD: eshop_password
-    volumes:
-      - .db-mysql:/var/lib/mysql
-    ports:
-      - 3306:3306
-      -
+#  database:
+#    image: mysql:5.6
+#    container_name: duomenu-baze
+#    command: --default-authentication-plugin=mysql_native_password
+#    restart: always
+#    environment:
+#      MYSQL_ROOT_PASSWORD: verygoodpassword
+#      MYSQL_DATABASE: eshopdb
+#      MYSQL_USER: eshop_user
+#      MYSQL_PASSWORD: eshop_password
+#    volumes:
+#      - .db-mysql:/var/lib/mysql
+#    ports:
+#      - 3306:3306
   db:
     image: postgres:latest
     restart: always
     environment:
-      POSTGRES_USER: codeacademy
-      POSTGRES_PASSWORD: codeacademy-password
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: mageownz
       POSTGRES_HOST_AUTH_METHOD: trust
-      POSTGRES_DB: codeacademy-db
+      POSTGRES_DB: eshop
     volumes:
       - .db-postgresql:/var/lib/postgresql/
     ports:

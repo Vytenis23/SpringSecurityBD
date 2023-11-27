@@ -3,8 +3,12 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 
 import jakarta.persistence.*;
+import lombok.Data;
+
+import java.time.LocalDate;
 import java.util.Set;
 
+@Data
 @Entity
 @Table(name = "users")
 public class User {
@@ -18,6 +22,18 @@ public class User {
 
     @Column(nullable = false)
     private String password;
+
+    @Column(nullable = false)
+    private String email;
+
+    @Column(nullable = false)
+    private String name;
+
+    @Column(nullable = false)
+    private String lastName;
+
+    @Column(nullable = false)
+    private LocalDate dateOfBirth;
 
     @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinTable(

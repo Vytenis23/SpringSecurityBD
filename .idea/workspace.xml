@@ -4,19 +4,109 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db2741e4-4d9b-4f2b-808c-7b0dac6f019d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/config/DatabaseConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/logout.html" afterDir="false" />
+    <list default="true" id="22b90039-03d0-4c5f-8db5-4e615f683d7c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/config/AdminUserRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/config/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/config/PasswordConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/config/RestExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/config/UserAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/config/UserAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/dto/AuthResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/dto/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/dto/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/dto/RoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/dto/SignupRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/exception/AppException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/service/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/util/JwtTokenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eshop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/EshopApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/EshopApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/config/DatabaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/config/DatabaseConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/controller/ForwardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/controller/ForwardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/controller/ProductsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/controller/ProductsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/controller/RedirectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/controller/RedirectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/exception/ProductNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/exception/ProductNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/service/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/service/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/initial-data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/initial-data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/mysql-initial-data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/mysql-initial-data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages_DE.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages_DE.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages_LT.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages_LT.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/language.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/language.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/logout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/redirectExample.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/redirectExample.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lt/codeacademy/eshop/EshopApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lt/codeacademy/eshop/EshopApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/initial-data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/mysql-initial-data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/EshopApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/config/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/config/DatabaseConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/config/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/controller/ForwardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/controller/ProductsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/controller/RedirectController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/exception/ProductNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/model/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/model/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/repository/ProductRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/service/MessageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/service/ProductServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/messages_DE.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/messages_LT.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/language.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/logout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/products.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/redirectExample.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lt/codeacademy/eshop/EshopApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +116,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -38,46 +128,41 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="2YGqwt46QnEvlZfOOACed2j8CuU" />
+  <component name="ProjectId" id="2YgaHtTwpsTkEtpXooQiDH8sXz0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/rehman/Downloads/Spring/SuSecurity2/src/main/java/lt/codeacademy/eshop/dto&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Darius\Desktop\CodeAcademy\codeacademy-courses-2023\src\main\java\lt\codeacademy\eshop\config" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/dto" />
+      <recent name="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/config" />
     </key>
-  </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="mvn clean install" />
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="EshopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -92,25 +177,15 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="db2741e4-4d9b-4f2b-808c-7b0dac6f019d" name="Changes" comment="" />
-      <created>1700162507915</created>
+      <changelist id="22b90039-03d0-4c5f-8db5-4e615f683d7c" name="Changes" comment="" />
+      <created>1700949594668</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1700162507915</updated>
-      <workItem from="1700162508780" duration="105000" />
-      <workItem from="1700162677603" duration="2532000" />
-      <workItem from="1700250665686" duration="699000" />
-      <workItem from="1700503760846" duration="1392000" />
-      <workItem from="1700587516805" duration="8765000" />
-      <workItem from="1700596648856" duration="1191000" />
-      <workItem from="1700598126395" duration="602000" />
-      <workItem from="1700601030963" duration="141000" />
-      <workItem from="1700601214184" duration="53000" />
-      <workItem from="1700601298651" duration="167000" />
-      <workItem from="1700668566988" duration="6383000" />
-      <workItem from="1700676442662" duration="25000" />
-      <workItem from="1700676482882" duration="100000" />
-      <workItem from="1700676597388" duration="1949000" />
+      <updated>1700949594668</updated>
+      <workItem from="1700949601782" duration="1310000" />
+      <workItem from="1700991489532" duration="3144000" />
+      <workItem from="1700995314956" duration="1729000" />
+      <workItem from="1700997053826" duration="10215000" />
     </task>
     <servers />
   </component>

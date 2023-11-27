@@ -1,10 +1,12 @@
 package lt.codeacademy.eshop.service;
 
+import lt.codeacademy.eshop.exception.AppException;
 import lt.codeacademy.eshop.exception.ProductNotFoundException;
 import lt.codeacademy.eshop.model.Product;
 import lt.codeacademy.eshop.repository.ProductRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -30,7 +32,7 @@ public class ProductServiceImpl implements ProductService {
     @Override
     public Product getProduct(UUID id) {
         return productRepository.findById(id)
-                .orElseThrow(ProductNotFoundException::new);
+                .orElseThrow(() -> new AppException("Product not found", HttpStatus.NOT_FOUND));
     }
 
     @Override
