@@ -20,7 +20,7 @@ services:
     restart: always
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: mageownz
+      POSTGRES_PASSWORD: Kazinau123
       POSTGRES_HOST_AUTH_METHOD: trust
       POSTGRES_DB: eshop
     volumes:

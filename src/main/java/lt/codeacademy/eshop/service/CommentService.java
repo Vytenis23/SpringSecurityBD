@@ -1,7 +1,7 @@
 package lt.codeacademy.eshop.service;
 
 import lt.codeacademy.eshop.model.Comment;
-import lt.codeacademy.eshop.model.Product;
+import lt.codeacademy.eshop.model.BlogPost;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

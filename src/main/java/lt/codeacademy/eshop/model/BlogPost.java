@@ -3,17 +3,15 @@ package lt.codeacademy.eshop.model;
 import jakarta.persistence.*;
 import lombok.Data;
 import org.hibernate.annotations.JdbcTypeCode;
-import org.hibernate.annotations.Type;
 import org.hibernate.type.SqlTypes;
 
-import java.math.BigDecimal;
 import java.util.List;
 import java.util.UUID;
 
 @Data
 @Entity
-@Table(name = "Products")
-public class Product {
+@Table(name = "BlogPosts")
+public class BlogPost {
 
     @Id
     @GeneratedValue
@@ -22,14 +20,12 @@ public class Product {
     //@Type(type = "uuid-char")
     private UUID id;
 
-    private String name;
+    private String title;
 
-    private Integer quantity;
+    private String content;
 
-    private BigDecimal price;
+    private String author;
 
-    private String description;
-
-    @OneToMany(mappedBy = "product", cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany(mappedBy = "blogPost", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Comment> comments;
 }

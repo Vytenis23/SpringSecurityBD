@@ -25,7 +25,9 @@ public class Comment {
 
     private String text;
 
+    private Long userId;
+
     @ManyToOne(fetch = FetchType.LAZY)
     @JsonBackReference
-    private Product product;
+    private BlogPost blogPost;
 }

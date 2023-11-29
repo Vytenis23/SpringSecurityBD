@@ -1,19 +1,9 @@
 package lt.codeacademy.eshop.controller;
 
 import lt.codeacademy.eshop.model.Comment;
-import lt.codeacademy.eshop.model.Product;
 import lt.codeacademy.eshop.service.CommentService;
-import lt.codeacademy.eshop.service.MessageService;
-import lt.codeacademy.eshop.service.ProductService;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
-import org.springframework.data.web.PageableDefault;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
 import java.util.UUID;
 
 @RestController
