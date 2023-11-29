@@ -22,7 +22,7 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: Kazinau123
       POSTGRES_HOST_AUTH_METHOD: trust
-      POSTGRES_DB: eshop
+      POSTGRES_DB: BasketBlog
     volumes:
       - .db-postgresql:/var/lib/postgresql/
     ports:

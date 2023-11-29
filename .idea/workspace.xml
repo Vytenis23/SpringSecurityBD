@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22b90039-03d0-4c5f-8db5-4e615f683d7c" name="Changes" comment="With login" />
+    <list default="true" id="22b90039-03d0-4c5f-8db5-4e615f683d7c" name="Changes" comment="With login">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BasketBlog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/EshopApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/BasketBlogApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/model/BlogPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/model/BlogPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lt/codeacademy/eshop/EshopApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lt/codeacademy/eshop/BasketBlogApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +30,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Vytenis23"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="77873c5c-035d-4e1f-8d4d-5fad1cb811fa" />
+        <option name="url" value="https://github.com/Vytenis23/SpringSecurity.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -68,10 +92,23 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="EshopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="BasketBlog" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="BasketBlog" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasketBlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="eshop" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="lt.codeacademy.eshop.EshopApplication" />
+      <module name="BasketBlog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lt.codeacademy.eshop.BasketBlogApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,7 +131,7 @@
       <workItem from="1701179931534" duration="980000" />
       <workItem from="1701191755102" duration="5194000" />
       <workItem from="1701260079513" duration="61000" />
-      <workItem from="1701260165905" duration="15676000" />
+      <workItem from="1701260165905" duration="18101000" />
     </task>
     <task id="LOCAL-00001" summary="With login">
       <option name="closed" value="true" />
@@ -104,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701288503887</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="With login">
+      <option name="closed" value="true" />
+      <created>1701288607511</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701288607511</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

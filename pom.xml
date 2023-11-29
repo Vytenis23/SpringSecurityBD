@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>lt.codeacademy</groupId>
-	<artifactId>eshop</artifactId>
+	<artifactId>BasketBlog</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>eshop</name>
 	<description>Eshop app created using Spring Boot</description>
