@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="dc41ff97-24af-4f38-b826-ed7a634e8de6" name="postgres@BasketBlog Mapping">
+      <data-sources db="339c67b7-ae2c-404e-9f11-62594bc60746" ddl="4aa0924d-58ca-4a33-ba39-f0111fbc8c6b" />
+    </mapping>
+  </component>
+</project>

@@ -4,59 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22b90039-03d0-4c5f-8db5-4e615f683d7c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/58fee6b9-b2e6-46bc-af9a-7efa6e4520fb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/58fee6b9-b2e6-46bc-af9a-7efa6e4520fb.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/58fee6b9-b2e6-46bc-af9a-7efa6e4520fb/storage_v2/_src_/database/eshop.2yDFBQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/58fee6b9-b2e6-46bc-af9a-7efa6e4520fb/storage_v2/_src_/database/eshop.2yDFBQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/58fee6b9-b2e6-46bc-af9a-7efa6e4520fb/storage_v2/_src_/database/eshop.2yDFBQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/58fee6b9-b2e6-46bc-af9a-7efa6e4520fb/storage_v2/_src_/database/eshop.2yDFBQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/58fee6b9-b2e6-46bc-af9a-7efa6e4520fb/storage_v2/_src_/database/eshop.2yDFBQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/controller/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/controller/ForwardController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/controller/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/controller/ProductsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/controller/BlogPostsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/controller/RedirectController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/exception/ProductNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/exception/BlogPostNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/model/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/model/BlogPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/repository/BlogPostRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/service/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/service/CommentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/service/BlogPostService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/service/BlogPostServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/config/AdminUserRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/config/AdminUserRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/controller/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/controller/ForwardController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/controller/RedirectController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/dto/AuthResponse$AuthResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/dto/AuthResponse$AuthResponseBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/dto/AuthResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/dto/AuthResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/dto/ErrorResponse$ErrorResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/dto/ErrorResponse$ErrorResponseBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/dto/ErrorResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/dto/ErrorResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/dto/LoginRequest$LoginRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/dto/LoginRequest$LoginRequestBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/dto/LoginRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/dto/LoginRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/dto/RoleDTO$RoleDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/dto/RoleDTO$RoleDTOBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/dto/RoleDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/dto/RoleDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/dto/SignupRequest$SignupRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/dto/SignupRequest$SignupRequestBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/dto/SignupRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/dto/SignupRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/dto/UserDTO$UserDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/dto/UserDTO$UserDTOBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/dto/UserDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/model/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/model/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/model/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/model/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/model/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/service/CommentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/service/CommentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/service/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/service/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lt/codeacademy/eshop/service/UserServiceImpl.class" afterDir="false" />
-    </list>
+    <list default="true" id="22b90039-03d0-4c5f-8db5-4e615f683d7c" name="Changes" comment="With login" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +41,6 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Studijos/JAVA/Baigemasis Darbas/SpringSecurity",
@@ -147,12 +94,25 @@
       <workItem from="1701179931534" duration="980000" />
       <workItem from="1701191755102" duration="5194000" />
       <workItem from="1701260079513" duration="61000" />
-      <workItem from="1701260165905" duration="15356000" />
+      <workItem from="1701260165905" duration="15676000" />
     </task>
+    <task id="LOCAL-00001" summary="With login">
+      <option name="closed" value="true" />
+      <created>1701288503887</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701288503887</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="With login" />
+    <option name="LAST_COMMIT_MESSAGE" value="With login" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
