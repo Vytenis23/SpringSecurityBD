@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22b90039-03d0-4c5f-8db5-4e615f683d7c" name="Changes" comment="With login">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BasketBlog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/EshopApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/BasketBlogApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/model/BlogPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/codeacademy/eshop/model/BlogPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lt/codeacademy/eshop/EshopApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lt/codeacademy/eshop/BasketBlogApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="22b90039-03d0-4c5f-8db5-4e615f683d7c" name="Changes" comment="naujausi pakeitimai" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,12 +21,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Vytenis23"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Vytenis23&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -65,8 +55,9 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.BasketBlogApplication.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Studijos/JAVA/Baigemasis Darbas/SpringSecurity",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -92,27 +83,22 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="BasketBlog" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="BasketBlog" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BasketBlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="BasketBlog" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="lt.codeacademy.eshop.BasketBlogApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lt.codeacademy.basketblog.BasketBlogApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-jbrsdk-17.0.9-3183f394aec4-7fc053dd" />
+        <option value="jdk-17.0.9-jbrsdk-17.0.9-3183f394aec4-8d7b1619" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -131,7 +117,16 @@
       <workItem from="1701179931534" duration="980000" />
       <workItem from="1701191755102" duration="5194000" />
       <workItem from="1701260079513" duration="61000" />
-      <workItem from="1701260165905" duration="18101000" />
+      <workItem from="1701260165905" duration="19424000" />
+      <workItem from="1701361113122" duration="5737000" />
+      <workItem from="1701449463652" duration="4267000" />
+      <workItem from="1701511695772" duration="25336000" />
+      <workItem from="1701698184572" duration="11510000" />
+      <workItem from="1701791672459" duration="288000" />
+      <workItem from="1701792093899" duration="17653000" />
+      <workItem from="1701937964999" duration="115000" />
+      <workItem from="1701938315543" duration="1866000" />
+      <workItem from="1701950118247" duration="957000" />
     </task>
     <task id="LOCAL-00001" summary="With login">
       <option name="closed" value="true" />
@@ -149,7 +144,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701288607511</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="With login">
+      <option name="closed" value="true" />
+      <created>1701291772226</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701291772226</updated>
+    </task>
+    <task id="LOCAL-00004" summary="With login">
+      <option name="closed" value="true" />
+      <created>1701291832903</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701291832903</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +168,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="With login" />
-    <option name="LAST_COMMIT_MESSAGE" value="With login" />
+    <MESSAGE value="naujausi pakeitimai" />
+    <option name="LAST_COMMIT_MESSAGE" value="naujausi pakeitimai" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

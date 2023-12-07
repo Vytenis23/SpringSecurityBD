@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title th:text="#{blogposts.title}"></title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/language.js"></script>
+</head>
+<body>
+<select id="languageSelector">
+	<option value="" th:text="#{lang.options}"></option>
+	<option value="LT" th:text="#{lang.lt}"></option>
+	<option value="DE" th:text="#{lang.de}"></option>
+	<option value="US" th:text="#{lang.en}"></option>
+</select>
+
+<div th:if="${not blogPostsPage.hasContent()}" th:text="#{blogposts.empty.list}"></div>
+
+<div th:if="${blogPostsPage.hasContent()}"
+	 class="container">
+	<table class="table">
+		<thead>
+		<tr>
+			<td>
+				<a
+						th:with="direction=${blogPostsPage.sort.getOrderFor('title')?.direction}"
+						th:href="@{/blogposts(sort='title,' + ${direction?.name() eq 'ASC' ? 'DESC' : 'ASC'} + ',ignorecase')}">
+					<span th:text="#{blogposts.title}"></span>
+					<i class="fas"
+					   th:classappend="${direction?.name() eq 'ASC' ? 'fa-sort-alpha-down' : 'fa-sort-alpha-up'}"
+					   th:if="${direction ne null}"></i>
+				</a>
+			</td>
+			<td>
+				<a
+						th:with="direction=${blogPostsPage.sort.getOrderFor('author')?.direction}"
+						th:href="@{/blogposts(sort='author,' + ${direction?.name() eq 'ASC' ? 'DESC' : 'ASC'} )}">
+					<span th:text="#{blogposts.author}"></span>
+					<i class="fas"
+					   th:classappend="${direction?.name() eq 'ASC' ? 'fa-sort-numeric-down' : 'fa-sort-numeric-up'}"
+					   th:if="${direction ne null}"></i>
+				</a>
+			</td>
+			<td></td>
+		</tr>
+		</thead>
+		<tbody>
+		<tr th:each="post: ${blogPostsPage.content}">
+			<td><a th:href="@{/blogposts/details(id=${post.id})}" th:text="${post.title}"></a></td>
+			<td th:text="${post.author}"></td>
+			<td><a class="btn btn-outline-secondary"
+				   role="button"
+				   th:href="@{/blogposts/delete(id=${post.id})}"
+				   th:text="#{blogposts.delete}"></a></td>
+		</tr>
+		</tbody>
+	</table>
+
+	<div>
+		<ul class="pagination">
+			<li class="page-item"
+				th:classappend="${blogPostsPage.number eq 0 ? 'disabled' : ''}">
+				<a class="page-link"
+				   th:href="@{/blogposts(page=${blogPostsPage.number} - 1)}"
+				   th:text="#{blogposts.previous}"></a>
+			</li>
+
+			<li class="page-item"
+				th:each="pageNumber : ${#numbers.sequence(0, blogPostsPage.totalPages - 1)}"
+				th:classappend="${pageNumber eq blogPostsPage.number ? 'active' : ''}">
+				<a class="page-link" th:href="@{/blogposts(page=${pageNumber})}" th:text="${pageNumber} + 1">1</a>
+			</li>
+
+			<li class="page-item"
+				th:classappend="${blogPostsPage.number eq blogPostsPage.totalPages - 1 ? 'disabled' : ''}">
+				<a class="page-link"
+				   th:href="@{/blogposts(page=${blogPostsPage.number} + 1)}"
+				   th:text="#{blogposts.next}"></a>
+			</li>
+		</ul>
+
+		<span th:text="#{blogposts.total(${blogPostsPage.totalElements})}">Total: 100</span>
+	</div>
+</div>
+
+</body>
+</html>
