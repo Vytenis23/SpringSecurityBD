@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="#{create.blogpost.title}"></title>
+</head>
+<body>
+<h3 th:text="#{create.blogpost}"></h3>
+<form method="POST" th:object="${blogPost}">
+    <label th:text="#{create.blogpost.title}"></label>
+    <input type="text" placeholder="Title" th:field="*{title}"><br/>
+
+    <label th:text="#{create.blogpost.content}"></label>
+    <textarea th:field="*{content}"></textarea><br/>
+
+    <label th:text="#{create.blogpost.date}"></label>
+    <input type="datetime-local" th:field="*{createdDate}"><br/>
+
+    <!-- Papildomi laukai, jei reikia -->
+
+    <button type="submit" th:text="#{create.blogpost.submit}"></button>
+</form>
+
+<div th:if="${success}" th:text="${success}"></div>
+</body>
+</html>
